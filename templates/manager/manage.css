@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,p,h1,h2,h3,h4,dl,dt,dd,table,tr,th,td{margin:0; padding:0; font-size:12px; font-weight:normal; line-height:16px; color:#595959; font-weight:normal;}
+li{list-style:none; list-style-type:none;}
+a{text-decoration:none; color:#595959;}
+a:hover{text-decoration:underline;}
+/* 公用块 */
+.button1,.operation_click,.add,.lessen,.pageLeft-box dl dd a,.mainBody-box-bg1{background:url(../manager/images/M_spriteBG1.png) no-repeat;}
+.blank30{height:30px; clear:both;}
+.blank10{height:10px; clear:both; font-size:0; line-height:0;}
+.clear{clear:both;}
+.color1{color:#335b64;}
+.color2{color:#969696;}
+/* 登录页 */
+.loginTop-box{height:80px; width:100%; background:#2c424a; text-align:center; padding-top:40px;}
+.loginBg-box{background:#fafafc; height:100%; width:100%; padding-bottom:210px;}
+.loginBox{width:656px; margin:0 auto; height:410px; border-top:5px solid #2c424a; background:url(../manager/images/loginBg.png) bottom center no-repeat #fff;}
+.loginBox .lable{width:320px; padding-top:80px; margin:0 auto;}
+.loginBox .lable table tr th{font-size:16px; font-weight:bold; color:#505050; line-height:48px;}
+.input1{width:225px; height:22px; border:1px solid #c8c8c8;}
+.button1{display:block; background-position:0 0; width:120px; height:38px; line-height:114px; overflow:hidden; margin-top:20px;}
+/* 头部 */
+.M_header{background:#2c3f47; width:100%; height:72px; position:relative;}
+.M_header .login{padding:15px 0 0 40px;}
+.M_header .message{position:absolute; top:8px; right:40px; color:#fff;}
+.M_header .message a{color:#9ecce1;}
+/* 左部 */
+.pageLeft{width:252px; position:absolute; top:72px; left:0;}
+.operation{width:252px; height:23px; border-bottom:1px solid #cbd3d8; background-color:#e0e5e9; position:relative;}
+.operation_click{position:absolute; background-position:0px -128px; width:31px; height:24px; right:-2px; top:0; cursor:pointer;}
+.pageLeft-box{width:221px; height:800px; background:#eceff1; border-right:1px solid #cbd3d8;}
+.pageLeft-box dl dt{border-top:1px solid #fff; border-bottom:1px solid #bec9d0; padding:12px 0 12px 30px; text-indent:20px; color:#335b64; font-weight:bold;}
+.add{background-position:-85px -195px; cursor:pointer;}
+.lessen{background-position:-85px -163px; cursor:pointer;}
+.pageLeft-box dl dd{background:#e0e5e9; border-top:1px solid #fff; border-bottom:1px solid #bec9d0; padding-left:50px;}
+.pageLeft-box dl dd a{display:block; background-position:-115px -135px; text-indent:15px; line-height:30px; color:#335b64;}
+/* 右部 */
+.mainBody-box{margin-left:222px; width:auto; padding:30px 40px 0;}
+.mainBody-box-bg1{background-position:0 -280px; background-repeat:repeat-x; width:auto; height:44px; border:1px solid #cccccc; border-bottom:0;}
+.table1 tr th{padding:0 8px; background:#f4f4f4;}
+.table1 tr td{padding:0 8px; background:#fff;}
+.table1 tr td a{color:#0088cc; text-decoration:underline;}
+.input2{background:#fff; border:1px solid #a4bdce; width:50px; height:18px; text-indent:5px; line-height:18px;}
+
+.title1{font-size:14px; font-weight:bold; color:#505050; line-height:30px;}
+
+
+
+/* 底部 */
+.M_foot{text-align:center; line-height:45px; color:#969696;}
